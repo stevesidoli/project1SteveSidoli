@@ -1,3 +1,158 @@
+footer {
+  background-color: #882c07;
+  margin: auto;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+}
+
+header {
+  background-image: url(../assets/header-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  /* padding: 45px 0; */
+}
+
+.topHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.botHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  top: 10px;
+}
+
+header nav li a {
+  margin: 20px 20px;
+  color: #000;
+}
+
+.floatingBox1 {
+  position: relative;
+  top: 275px;
+}
+
+body {
+  background-color: #201e21;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flexContainerCol {
+  /* designate flex parent container */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* definte axis of alignment, horizontally */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flexContainerRow {
+  /* designate flex parent container */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* definte axis of alignment, horizontally */
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.underTheSea {
+  background-color: #fae5ff;
+}
+
+.underTheSea p {
+  text-align: center;
+}
+
+.underTheSea .button a {
+  background-color: #4c0341;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.underTheSea .wrapper.flexContainerCol {
+  padding: 175px;
+}
+
+.newAdditions {
+  background-color: #fff;
+}
+
+.manyOptions {
+  background-color: #fff;
+}
+
+.middleLinks {
+  background-color: #fae5ff;
+}
+
+.shoeBanner {
+  background-image: url(../assets/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  margin: auto;
+}
+
+.monthlyFeature {
+  background-color: #fff;
+}
+
+.bottomGallery {
+  background-color: #fae5ff;
+}
+
 html {
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
@@ -226,6 +381,79 @@ html {
   overflow: hidden;
 }
 
+html {
+  font-size: 62.5%;
+}
+
+.h1 {
+  font-family: "Pompiere", cursive;
+  font-size: 8rem;
+  line-height: 92px;
+}
+.h1.h1Index {
+  font-size: 11rem;
+  line-height: 64px;
+}
+
+.h2 {
+  font-family: "Pompiere", cursive;
+  font-size: 5.2rem;
+  letter-spacing: 0.16rem;
+}
+
+.h3 {
+  font-family: "Pompiere", cursive;
+  font-size: 3rem;
+  letter-spacing: 0.13rem;
+}
+
+.h4 {
+  font-family: "Pompiere", cursive;
+  font-size: 5.2rem;
+  letter-spacing: 0.12rem;
+  text-align: center;
+}
+
+.h6 {
+  font-family: "Pompiere", cursive;
+  font-size: 4.2rem;
+  letter-spacing: 0.13rem;
+}
+
+nav {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
 p {
-  font-size: x-large;
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+}
+
+.logoText {
+  font-family: "Pompiere", cursive;
+  font-size: 3.58rem;
+  line-height: 3.6rem;
+  letter-spacing: 0.11rem;
+}
+
+.button {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+footer {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 3.2rem;
+}
+
+.sidebarList {
+  font-family: "Lato", sans-serif;
+  font-size: 2rem;
 }

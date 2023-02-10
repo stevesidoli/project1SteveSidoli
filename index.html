@@ -6,71 +6,96 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Shoe Kloset</title>
         <link rel="stylesheet" href="./styles/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pompiere&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <div class="logoText"><h1>Shoe Kloset</h1></div>
-            <div class="tagLine">Find something new</div>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="wrapper flexContainerCol">
+                <div class="topHeader">
+                    <div class="logoText">Shoe Kloset</div>
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="botHeader">
+                    <div class="tagLine"><h1>Find something new</h1></div>
+                    <div class="floatingBox1"><img src="./assets/home-box-header.png" alt="clipart graphics of shoes and various shapes"></div>
+                </div>
+            </div>
+            <!-- think about putting this image inside the header position:aboslute change size with media querie, potentially remove image in mobile-->
         </header>
-        <div class="floatingBox1"><img src="./assets/home-box-header.png" alt="clipart graphics of shoes and various shapes"></div>
         <section class="underTheSea">
-            <div class="wrapper flexContainer">
-                <h2>What is under the sea?</h2>
+            <div class="wrapper flexContainerCol">
+                <!-- consider keeping H2 number in order for accessibility -->
+                <h2 class="h4">What is under the sea?</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt perspiciatis corporis cupiditate saepe repellat maxime unde, eveniet, perferendis deserunt suscipit atque cumque doloremque facere hic ea accusantium. Et, quisquam alias.</p>
+                <div class="button"><a href="#">Find Out More</a></div>
             </div>
         </section>
+        <!-- consider grouping the next two sections into one -->
         <section class="newAdditions">
-            <div class="wrapper flexContainer">
-                <h3>New Additions</h3>
+            <div class="wrapper flexContainerCol">
+                <img src="./assets/left-image.jpg" alt="a pair of white leather shoes">
+                <h3 class="h6">New Additions</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nostrum velit porro excepturi, aliquam beatae dolorem consectetur est reprehenderit ab error, voluptatibus, provident adipisci deserunt illum nisi quam ducimus veniam.</p>
+                <div class="button"><a href="#">Read More</a></div>
             </div>
         </section>
         <section class="manyOptions">
-            <div class="wrapper flexContainer">
-                <h3>Too Many Options</h3>
+            <div class="wrapper flexContainerCol">
+                <h3 class="h6">Too Many Options</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero veniam adipisci vel molestias, eveniet deleniti facilis laudantium odit necessitatibus saepe maiores atque aspernatur fugit quasi itaque, ipsa quaerat ea! Quod?</p>
+                <div class="button"><a href="#">Read More</a></div>
+                <img src="./assets/right-image.jpg" alt="many beige shoes agains a white background">
             </div>
         </section>
         <section class="middleLinks">
-            <div class="wrapper flexContainer">
+            <div class="wrapper flexContainerRow">
                 <div class="locationsBox">
-                    <h2>Locations</h2>
+                    <!-- add icons -->
+                    <h3 class="h2">Locations</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero nemo ipsum sed modi?</p>
                 </div>
                 <div class="communityBox">
-                    <h2>Community</h2>
+                    <!-- add icons -->
+                    <h3 class="h2">Community</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero nemo ipsum sed modi?</p>
                 </div>
                 <div class="blogBox">
-                    <h2>Blog</h2>
+                    <!-- add icons -->
+                    <h3 class="h2">Blog</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero nemo ipsum sed modi?</p>
                 </div>
                 <div class="contactBox">
-                    <h2>Get In Touch</h2>
+                    <!-- add icons -->
+                    <h3 class="h2">Get In Touch</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero nemo ipsum sed modi?</p>
                 </div>
             </div>
         </section>
+        <!-- consider making a div part of next section -->
         <section class="shoeBanner">
-            <img src="./assets/banner.jpg" alt="A fashionable pair of white shoes.">
+            <p>&nbsp;</p>
         </section>
         <section class="monthlyFeature">
-            <div class="wrapper flexContainer">
-                <h2>Popular This Month</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores deserunt mollitia quidem placeat dolorem maxime, voluptatem ex officiis nihil! Exercitationem quaerat dolores magni beatae voluptatem quibusdam eos odit a?</p>
-                <p><a href="#">Find Out More</a></p>
+            <div class="wrapper flexContainerRow">
+                <!-- add image -->
+                <div class="monthlyFeatureText">
+                    <h3 class="h2">Popular This Month</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores deserunt mollitia quidem placeat dolorem maxime, voluptatem ex officiis nihil! Exercitationem quaerat dolores magni beatae voluptatem quibusdam eos odit a?</p>
+                    <div class="button"><a href="#">Find Out More</a></div>
+                </div>
             </div>
         </section>
         <section class="bottomGallery">
-            <div class="wrapper flexContainer">
+            <div class="wrapper flexContainerRow">
                 <img src="./assets/gallery-image-1.jpg">
                 <img src="./assets/gallery-image-2.jpg">
                 <img src="./assets/gallery-image-3.jpg">

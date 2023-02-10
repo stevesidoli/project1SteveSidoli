@@ -1,0 +1,37 @@
+header {
+    background-image: url(../assets/header-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    /* padding: 45px 0; */
+}
+
+.topHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.botHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 10px;
+}
+
+header nav li a{
+    margin: 20px 20px;
+    color: #000;
+}
+
+
+.floatingBox1 {
+    position: relative;
+    top: 275px;
+}

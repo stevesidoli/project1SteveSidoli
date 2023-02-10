@@ -1,0 +1,91 @@
+body {
+  background-color: #201e21;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.flexContainerCol {
+  /* designate flex parent container */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* definte axis of alignment, horizontally */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flexContainerRow {
+  /* designate flex parent container */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* definte axis of alignment, horizontally */
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.underTheSea {
+  background-color: #fae5ff;
+}
+
+.underTheSea p {
+  text-align: center;
+}
+
+.underTheSea .button a {
+  background-color: #4c0341;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.underTheSea .wrapper.flexContainerCol {
+  padding: 175px;
+}
+
+.newAdditions {
+  background-color: #fff;
+}
+
+.manyOptions {
+  background-color: #fff;
+}
+
+.middleLinks {
+  background-color: #fae5ff;
+}
+
+.shoeBanner {
+  background-image: url(../assets/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  margin: auto;
+}
+
+.monthlyFeature {
+  background-color: #fff;
+}
+
+.bottomGallery {
+  background-color: #fae5ff;
+}
