@@ -12,41 +12,48 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pompiere&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <div class="logoText">Shoe Kloset</div>
-            <div class="tagLine"><h1>Get In Touch</h1></div>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section class="contactForm">
-            <div class="wrapper flexContainer">
-                <fieldset>  
-                    <input type="text" id="name" placeholder="Name">
-                    <input type="text" id="email" placeholder="Email address">
-                    <textarea name="formComment" placeholder="Message"></textarea>
-                    <button type="submit">Submit</button>
-                </fieldset>
-            </div>
-        </section>
-        <section class="sideBar">
-            <div class="wrapper flexContainer">
-                <div class="socialIcons">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-snapchat-ghost"></a>
-                    <a href="#" class="fa fa-twitter"></a>
+        <header class="contactHeader">
+            <div class="wrapper flexContainerCol">
+                <div class="topHeader">
+                    <div class="logoText"><p>Shoe</p><p>Kloset</p></div>
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="./blog.html">Blog</a></li>
+                            <li class="onThisPage"><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <div class="contactInfo">
-                    <p>123-456-7890</p>
-                    <p>123 Queen Street West, Unit 10</p>
-                    <p>Toronto, Ontario</p>
-                    <p>M5V2D5</p>
+                <div class="botHeader">
+                    <div class="tagLineContact"><h1 class="h1Blog">Get In Touch</h1></div>
+                </div>
+            </div>
+        </header>
+        <section class="contactPage">
+            <div class="wrapper flexContainerRow">
+                <div class="sideBar">
+                    <div class="socialIcons">
+                        <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true" ></i></a>
+                        <a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true" ></i></a>
+                        <a href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true" ></i></a>
+                        <a href="#"><i class="fa fa-whatsapp fa-2x" aria-hidden="true" ></i></a>
+                    </div>
+                    <div class="contactInfo">
+                        <h2 class="h8"><a href="#">info@email.com</a></h2>
+                         <p>123-456-7890</p>
+                         <p>123 Queen Street West, Unit 10</p>
+                         <p>Toronto, Ontario</p>
+                         <p>M5V2D5</p>
+                    </div>
+                </div>
+                <div class="contactForm">
+                    <fieldset>  
+                        <input type="text" id="name" placeholder="Name">
+                        <input type="text" id="email" placeholder="Email address">
+                        <textarea name="formComment" placeholder="Message"></textarea>
+                        <button type="submit">Submit</button>
+                    </fieldset>
                 </div>
             </div>
         </section>

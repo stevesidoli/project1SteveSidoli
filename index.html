@@ -14,10 +14,10 @@
         <header>
             <div class="wrapper flexContainerCol">
                 <div class="topHeader">
-                    <div class="logoText">Shoe Kloset</div>
+                    <div class="logoText"><p>Shoe</p><p>Kloset</p></div>
                     <nav>
                         <ul>
-                            <li><a href="./index.html">Home</a></li>
+                            <li class="onThisPage"><a href="./index.html">Home</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="./blog.html">Blog</a></li>
                             <li><a href="./contact.html">Contact</a></li>
@@ -25,11 +25,10 @@
                     </nav>
                 </div>
                 <div class="botHeader">
-                    <div class="tagLine"><h1>Find something new</h1></div>
+                    <div class="tagLine"><h1 class="h1Index">Find something new</h1></div>
                     <div class="floatingBox1"><img src="./assets/home-box-header.png" alt="clipart graphics of shoes and various shapes"></div>
                 </div>
             </div>
-            <!-- think about putting this image inside the header position:aboslute change size with media querie, potentially remove image in mobile-->
         </header>
         <section class="underTheSea">
             <div class="wrapper flexContainerCol">
@@ -40,43 +39,53 @@
             </div>
         </section>
         <!-- consider grouping the next two sections into one -->
-        <section class="newAdditions">
-            <div class="wrapper flexContainerCol">
-                <img src="./assets/left-image.jpg" alt="a pair of white leather shoes">
-                <h3 class="h6">New Additions</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nostrum velit porro excepturi, aliquam beatae dolorem consectetur est reprehenderit ab error, voluptatibus, provident adipisci deserunt illum nisi quam ducimus veniam.</p>
-                <div class="button"><a href="#">Read More</a></div>
+        <section class="additionsOptions">
+            <div class="wrapper flexContainerRow">
+                <div class=newAdditionsImage>
+                    <img src="./assets/left-image.jpg" alt="a pair of white leather shoes">
+                </div>
+                <div class="newAdditionsText">
+                    <h3 class="h6">New Additions</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nostrum velit porro excepturi, aliquam beatae dolorem consectetur est reprehenderit ab error, voluptatibus, provident adipisci deserunt illum nisi quam ducimus veniam.</p>
+                    <div class="button"><a href="#">Read More</a></div>
+                </div>
             </div>
-        </section>
-        <section class="manyOptions">
-            <div class="wrapper flexContainerCol">
-                <h3 class="h6">Too Many Options</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero veniam adipisci vel molestias, eveniet deleniti facilis laudantium odit necessitatibus saepe maiores atque aspernatur fugit quasi itaque, ipsa quaerat ea! Quod?</p>
-                <div class="button"><a href="#">Read More</a></div>
-                <img src="./assets/right-image.jpg" alt="many beige shoes agains a white background">
+            <div class="wrapper flexContainerRow">
+                <div class="manyOptionsText">
+                    <h3 class="h6">Too Many Options</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero veniam adipisci vel molestias, eveniet deleniti facilis laudantium odit necessitatibus saepe maiores atque aspernatur fugit quasi itaque, ipsa quaerat ea! Quod?</p>
+                    <div class="button"><a href="#">Read More</a></div>
+                </div>
+                <div class="manyOptionsImage">
+                    <img src="./assets/right-image.jpg" alt="many beige shoes agains a white background">
+                </div>
             </div>
         </section>
         <section class="middleLinks">
             <div class="wrapper flexContainerRow">
-                <div class="locationsBox">
-                    <!-- add icons -->
-                    <h3 class="h2">Locations</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero nemo ipsum sed modi?</p>
+                <div class ="middleLinksInnerRow">
+                    <div class="middleLinksBox">
+                        <!-- add icons -->
+                        <h3 class="h2">Locations</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero nemo ipsum sed modi?</p>
+                    </div>
+                    <div class="middleLinksBox">
+                        <!-- add icons -->
+                        <h3 class="h2">Community</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero nemo ipsum sed modi?</p>
+                    </div>
                 </div>
-                <div class="communityBox">
-                    <!-- add icons -->
-                    <h3 class="h2">Community</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero nemo ipsum sed modi?</p>
-                </div>
-                <div class="blogBox">
-                    <!-- add icons -->
-                    <h3 class="h2">Blog</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero nemo ipsum sed modi?</p>
-                </div>
-                <div class="contactBox">
-                    <!-- add icons -->
-                    <h3 class="h2">Get In Touch</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero nemo ipsum sed modi?</p>
+                <div class ="middleLinksInnerRow">
+                    <div class="middleLinksBox">
+                        <!-- add icons -->
+                        <h3 class="h2">Blog</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero nemo ipsum sed modi?</p>
+                    </div>
+                    <div class="middleLinksBox">
+                        <!-- add icons -->
+                        <h3 class="h2">Get In Touch</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod libero nemo ipsum sed modi?</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -86,7 +95,9 @@
         </section>
         <section class="monthlyFeature">
             <div class="wrapper flexContainerRow">
-                <!-- add image -->
+                <div class="monthlyFeatureImg">
+                    <img src="./assets/square-image.jpg" alt="A black pair of shoes with metal studs on them.">
+                </div>
                 <div class="monthlyFeatureText">
                     <h3 class="h2">Popular This Month</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus asperiores deserunt mollitia quidem placeat dolorem maxime, voluptatem ex officiis nihil! Exercitationem quaerat dolores magni beatae voluptatem quibusdam eos odit a?</p>
@@ -96,9 +107,11 @@
         </section>
         <section class="bottomGallery">
             <div class="wrapper flexContainerRow">
-                <img src="./assets/gallery-image-1.jpg">
-                <img src="./assets/gallery-image-2.jpg">
-                <img src="./assets/gallery-image-3.jpg">
+                <ul class="bottomGalleryImg">
+                    <li><img src="./assets/gallery-image-1.jpg"></li>
+                    <li><img src="./assets/gallery-image-2.jpg"></li>
+                    <li><img src="./assets/gallery-image-3.jpg"></li>
+                </ul>
             </div>
         </section>
         <footer>

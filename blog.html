@@ -11,68 +11,93 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pompiere&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <div class="logoText">Shoe Kloset</div>
-            <div class="tagLine"><h1>Blog</h1></div>
-            <nav>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>
+        <header class="blogHeader">
+            <div class="wrapper flexContainerCol">
+                <div class="topHeader">
+                    <div class="logoText"><p>Shoe</p><p>Kloset</p></div>
+                    <nav>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li class="onThisPage"><a href="./blog.html">Blog</a></li>
+                            <li><a href="./contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="botHeader">
+                    <div class="tagLineBlog"><h1 class="h1Blog">Blog</h1></div>
+
+                </div>
+            </div>
         </header>
-        <section class="mainImage">
-            <div class="wrapper flexContainer">
-                <img src="./assets/blog-post-image.jpg" alt="Two women in high heels strolling down a brick street">
-            </div>
-        </section>
-        <section class="blogPost">
-            <div class="wrapper flexContainer">
-                <h2>Shoes around the world</h2>
-                <h4>Monday, May 14th, 2019 by Dieula</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt perspiciatis corporis cupiditate saepe repellat maxime unde, eveniet, perferendis deserunt suscipit atque cumque doloremque facere hic ea accusantium. Et, quisquam alias.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt perspiciatis corporis cupiditate saepe repellat maxime unde, eveniet, perferendis deserunt suscipit atque cumque doloremque facere hic ea accusantium. Et, quisquam alias.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt perspiciatis corporis cupiditate saepe repellat maxime unde, eveniet, perferendis deserunt suscipit atque cumque doloremque facere hic ea accusantium. Et, quisquam alias.</p>
-            </div>
-        </section>
-        <section class="commentSection">
-            <div class="wrapper flexContainer">
-                <h2>Comments</h2>
-                <div class="comment1">
-                    <img src="./assets/comment-2.jpg" alt="portrait of commenter who is smiling">
-                    <h4>Tuesday, November 21, 2019 by Jeremy</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nostrum velit porro excepturi, aliquam beatae dolorem consectetur est reprehenderit ab error, voluptatibus, provident adipisci deserunt illum nisi quam ducimus veniam.</p>
+        <section class="wrapper blogContent">
+            <section class="sideBar">
+                <div class="wrapper flexContainer">
+                    <div class="sidebarText">
+                        <div class="sidebarImage">
+                            <img src="./assets/sidebar-image.jpg" alt="a pair of feet jumping in the air wearing athletic sneakers">
+                        </div>
+                        <h2 class="h8">Any Weather</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h2 class="h8">Recent Posts</h2>
+                        <ul class="sidebarList">
+                            <li>Test Text Here</li>
+                            <li>More Text Here</li>
+                            <li>Even More Text Here</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="comment2">
-                    <img src="./assets/comment-1.jpg" alt="portrait of commenter who is smiling">
-                    <h4>Wednesday, November 10, 2019 by Jeremy</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nostrum velit porro excepturi, aliquam beatae dolorem consectetur est reprehenderit ab error, voluptatibus, provident adipisci deserunt illum nisi quam ducimus veniam.</p>
+            </section>
+            <section class="blogPost">
+                <div class="wrapper flexContainerCol">
+                    <div class="floatingBox2">
+                        <img src="./assets/blog-post-image.jpg" alt="Two women in high heels strolling down a brick street">
+                    </div>
+                    <div class="blogText">
+                        <h2 class="h2">Shoes around the world</h2>
+                        <h7 class="h7">Monday, May 14th, 2019 by Dieula</h7>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt perspiciatis corporis cupiditate saepe repellat maxime unde, eveniet, perferendis deserunt suscipit atque cumque doloremque facere hic ea accusantium. Et, quisquam alias.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt perspiciatis corporis cupiditate saepe repellat maxime unde, eveniet, perferendis deserunt suscipit atque cumque doloremque facere hic ea accusantium. Et, quisquam alias.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt perspiciatis corporis cupiditate saepe repellat maxime unde, eveniet, perferendis deserunt suscipit atque cumque doloremque facere hic ea accusantium. Et, quisquam alias.</p>
+                        <div class="blogComments">
+                            <h3 class="h5">Comments</h3>
+                            <div class="commentBox">
+                                <div class="commentImg">
+                                    <img src="./assets/comment-2.jpg" alt="portrait of commenter who is smiling">
+                                </div>
+                                <div class="commentTxt">
+                                    <h7 class="h7">Tuesday, November 21, 2019 by Jeremy</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nostrum velit porro excepturi, aliquam beatae dolorem consectetur est reprehenderit ab error, voluptatibus, provident adipisci deserunt illum nisi quam ducimus veniam.</p>
+                                </div>
+                            </div>
+                            <div class="commentBox">
+                                <div class="commentImg">
+                                    <img src="./assets/comment-1.jpg" alt="portrait of commenter who is smiling">
+                                </div>
+                                <div class="commentTxt">
+                                    <h7 class="h7">Wednesday, November 10, 2019 by Jeremy</h7>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nostrum velit porro excepturi, aliquam beatae dolorem consectetur est reprehenderit ab error, voluptatibus, provident adipisci deserunt illum nisi quam ducimus veniam.</p>
+                                </div>
+                            </div>
+                            <div class="commentsForm">
+                                <fieldset>
+                                    <div class="commentsTop">
+                                        <input type="text" id="name" placeholder="Name">
+                                        <input type="text" id="email" placeholder="Email address">
+                                    </div>
+                                    <div class="commentsMiddle">
+                                        <textarea name="formComment" placeholder="Comment"></textarea>
+                                    </div>
+                                    <div class="commentsBottom">
+                                        <button class="submit">Post Comment</button>
+                                    </div>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="commentsForm">
-                    <fieldset> 
-                            <input type="text" id="name" placeholder="Name">
-                            <input type="text" id="email" placeholder="Email address">
-                            <textarea name="formComment" placeholder="Comment"></textarea>
-                            <button class="submit">Post Comment</button>
-                    </fieldset>
-                </div>
-            </div>
-        </section>
-        <section class="sideBar">
-            <div class="wrapper flexContainer">
-                <img src="./assets/sidebar-image.jpg" alt="a pair of feet jumping in the air wearing athletic sneakers">
-                <h3>Any Weather</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <h3>Recent Posts</h3>
-                <ul class="sidebarList">
-                    <li>Test Text Here</li>
-                    <li>More Text Here</li>
-                    <li>Even More Text Here</li>
-                </ul>
-            </div>
-        </section>
+            </section>
+    </section>
         <footer>
             <p>Copyright © 2019 Juno College</p>
         </footer>

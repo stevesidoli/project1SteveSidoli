@@ -1,5 +1,5 @@
 body {
-    background-color: #201e21;
+    background-color: #fae5ff;
     margin: 0;
     padding: 0;
  }
@@ -34,9 +34,12 @@ ul{
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
-
+a:visited {
+    color: #000;
+}
 
 .underTheSea {
     background-color: #fae5ff;
@@ -60,12 +63,64 @@ a {
     background-color: #fff;
 }
 
-.manyOptions {
+.newAdditionsImage img {
+    position: relative;
+    top: -65px;
+    box-shadow: 30px 30px 0px #fe6f19;
+    width: 270%;
+    height: auto;
+}
+
+.newAdditionsText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 75px 400px;
+}
+
+.newAdditions .button a {
+    background-color: #4c0341;
+    padding: 10px 15px;
+    color: #fff;  
+}
+
+.additionsOptions {
     background-color: #fff;
+}
+
+.additionsOptions .button a {
+    background-color: #4c0341;
+    padding: 10px 15px;
+    color: #fff;  
+}
+
+.manyOptionsImage img {
+
+    position: relative;
+    top: 105px;
+    right: 220px;
+    box-shadow: -30px 30px 0px #fe6f19;
+    width: 220%;
+    height: auto;
+}
+
+.manyOptionsText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 50px 290px 50px 50px;
+}
+
+.manyOptionsText p {
+    text-align: right;
 }
 
 .middleLinks {
     background-color: #fae5ff;
+}
+
+.middleLinksBox {
+    padding: 20px;
 }
 
 .shoeBanner {
@@ -74,6 +129,7 @@ a {
     background-size: cover;
     min-height: 100vh;
     margin:auto;
+    font-size: 0;
 }
 
 
@@ -81,6 +137,174 @@ a {
     background-color: #fff;
 }
 
+
+.monthlyFeature .flexContainerRow {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.monthlyFeatureImg {
+    padding: 60px 0px 60px 0px;
+
+}
+
+.monthlyFeatureImg img {
+    box-shadow: 30px 30px 0px #fe6f19;
+}
+
+.monthlyFeatureText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 0px 75px 50px;
+}
+
+.monthlyFeatureText .button a {
+    background-color: #4c0341;
+    padding: 10px 15px;
+    color: #fff;
+    
+}
+
 .bottomGallery {
     background-color: #fae5ff;
+}
+
+.bottomGalleryImg {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 0;
+}
+
+
+.button a:hover {
+    background-color: #882c07;
+}
+
+
+// Styles specifically for BLOG start here
+
+.floatingBox2 {
+    position: relative;
+    top: -225px;
+    left: 100px;
+}
+
+.floatingBox2 img {
+    max-width: 90%;
+    height: auto;
+    box-shadow: -30px 30px 0px #fe6f19;
+}
+
+.blogContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.blogText {
+    position: relative;
+    top: -200px;
+}
+
+.blogPost {
+    background-color: #fff;
+}
+
+.commentBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.commentImg {
+    padding: 0 20px 0 0;
+}
+
+fieldset {
+    border: 0;
+}
+
+.commentsTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebarText {
+    background-color: #fff;
+    width: 70%;
+    padding: 20px;
+    position: relative;
+    top: 100px;
+}
+
+ul.sidebarList {
+    list-style-type: disc;
+    padding: 0 10px 10px 20px;
+}
+
+// Styles specifically for CONTACT go here
+
+.contactForm {
+    background-color: #fff;
+    padding: 50px;
+    box-shadow: -25px 25px 0px #fe6f19;
+    position: relative;
+    top: -140px;
+    left: 100px;
+}
+
+.socialIcons i{
+    padding: 0 20px 0 0;
+}
+
+.sideBar {
+    position: relative;
+    top: 50px;
+}
+
+// Form styles go here
+
+input[type=text] {
+    border-bottom: 2px solid #fe6f19;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding: 10px 10px;
+    width: 45%;
+    margin: 0;
+    color: #000;
+}
+
+textarea {
+    border: 2px solid #fe6f19;
+    width: 100%;
+    padding: 10px 10px;
+    color: #000;
+}
+
+button.submit {
+    background: #4c0341;
+    width: 100%;
+    border: none;
+    padding: 10px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+}
+
+button[type=submit] {
+    background: #882c07;
+    width: 100%;
+    border: none;
+    padding: 10px 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
 }

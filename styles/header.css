@@ -6,6 +6,20 @@ header {
   /* padding: 45px 0; */
 }
 
+.blogHeader {
+  background-image: url(../assets/blog-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.contactHeader {
+  background-image: url(../assets/contact-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
 .topHeader {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,8 +59,41 @@ header nav ul {
 }
 
 header nav li a {
-  margin: 20px 20px;
+  margin: 20px 0px 0px 20px;
   color: #000;
+}
+
+header nav li a:hover {
+  background-color: #882c07;
+  color: #fff;
+}
+
+li.onThisPage a {
+  background-color: #4c0341;
+  padding: 10px 15px;
+  color: #fff;
+}
+
+.logoText {
+  position: relative;
+  top: 10px;
+}
+
+.tagLine {
+  position: relative;
+  top: 125px;
+}
+
+.tagLineBlog {
+  position: relative;
+  top: 425px;
+  left: 640px;
+}
+
+.tagLineContact {
+  position: relative;
+  top: 425px;
+  left: 365px;
 }
 
 .floatingBox1 {
