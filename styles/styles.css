@@ -254,10 +254,21 @@ a:visited {
 
 .middleLinks {
   background-color: #fae5ff;
+  padding: 60px 0 60px 0;
 }
 
 .middleLinksBox {
-  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.middleLinksIcon {
+  padding: 60px 30px 0 0px;
 }
 
 .shoeBanner {
@@ -468,6 +479,133 @@ button[type=submit] {
   text-transform: uppercase;
   font-family: "Lato", sans-serif;
   font-size: 2rem;
+}
+
+@media screen and (max-width: 650px) {
+  header {
+    background: none;
+    background-color: #fff;
+    min-height: 10vh;
+  }
+  .floatingBox1 {
+    display: none;
+  }
+  .h1Index {
+    font-family: "Pompiere", cursive;
+    font-size: 1rem;
+    line-height: 64px;
+  }
+  .tagLine {
+    display: none;
+  }
+  .floatingBox2 {
+    display: none;
+  }
+  header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    top: 10px;
+    text-align: right;
+  }
+  li.onThisPage a {
+    padding: 0;
+  }
+  .button a {
+    font-size: 1rem;
+  }
+  .newAdditionsImage {
+    display: none;
+  }
+  .flexContainerRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .underTheSea .wrapper.flexContainerCol {
+    padding: 25px;
+  }
+  .contactForm {
+    position: relative;
+    top: 100px;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .manyOptionsImage {
+    display: none;
+  }
+  .manyOptionsText {
+    padding: 50px 50px 50px 50px;
+  }
+  .newAdditionsText {
+    padding: 0px 0px 75px 40px;
+  }
+  .shoeBanner {
+    display: none;
+  }
+  .monthlyFeatureImg {
+    display: none;
+  }
+  .blogHeader {
+    background: none;
+    background-color: #fff;
+    min-height: 10vh;
+  }
+  .tagLineBlog {
+    display: none;
+  }
+  .sideBar {
+    display: none;
+  }
+  .sidebarImage {
+    display: none;
+  }
+  .floatingBox2 {
+    display: none;
+  }
+  .blogText {
+    position: relative;
+    top: 10px;
+  }
+  .contactHeader {
+    background: none;
+    background-color: #fff;
+    min-height: 10vh;
+  }
+  .tagLineContact {
+    display: none;
+  }
+  button.submit {
+    font-size: 1rem;
+  }
+  button[type=submit] {
+    font-size: 1rem;
+  }
+}
+section.contactPage wrapper flexContainerRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contactForm {
+  max-width: 75vw;
 }
 
 html {

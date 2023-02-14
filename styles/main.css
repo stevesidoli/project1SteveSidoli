@@ -140,10 +140,21 @@ a:visited {
 
 .middleLinks {
   background-color: #fae5ff;
+  padding: 60px 0 60px 0;
 }
 
 .middleLinksBox {
-  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.middleLinksIcon {
+  padding: 60px 30px 0 0px;
 }
 
 .shoeBanner {
