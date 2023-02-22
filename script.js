@@ -38,7 +38,7 @@ if (mobileMenu.classList.contains("menuDrop")) {
 toggleButton.addEventListener('click', menuChange);
 
 
-// The forEach array calls a function for each of the links in my mobileLinks variable. This also sets up the menuChange function when these links are clicked.
+// The forEach method calls a function for each of the links in my mobileLinks variable. This also sets up the menuChange function when these links are clicked.
 
 mobileLinks.forEach(
     function(mobileLink) {
