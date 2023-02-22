@@ -5,12 +5,25 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Shoe Kloset</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="./styles/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pompiere&display=swap" rel="stylesheet">
     </head>
     <body>
+        <div class="mobileMenu">
+            <nav class="mobileMenuNav">
+                <li class="mobileLink"><a href="./index.html">Home</a></li>
+                <li class="mobileLink"><a href="#">About</a></li>
+                <li class="mobileLink"><a href="./blog.html">Blog</a></li>
+                <li class="mobileLink"><a href="./contact.html">Contact</a></li>
+            </nav>
+        </div>
+        <button class="toggleButton">
+                <i class="hamburgBox fa fa-bars fa-3x" aria-hidden="true"></i>
+                <i class="closeX fa fa-times fa-3x" aria-hidden="true"></i>
+        </button>
         <header class="blogHeader">
             <div class="wrapper flexContainerCol">
                 <div class="topHeader">
@@ -98,6 +111,8 @@
                 </div>
             </section>
     </section>
+    <script src="./script.js">
+    </script>
         <footer>
             <p>Copyright © 2019 Juno College</p>
         </footer>
