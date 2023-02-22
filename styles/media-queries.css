@@ -19,16 +19,51 @@
     display: none;
   }
   header nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    display: none;
+  }
+  .mobileMenu {
+    display: block;
+    position: fixed;
+    background: #4c0341;
+    opacity: 0.9;
+    padding-top: 4rem;
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+  }
+  .mobileMenuNav {
     position: relative;
-    top: 10px;
-    text-align: right;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .mobileLink a {
+    color: #fff;
+    font-size: 4rem;
+  }
+  .menuDrop {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  .toggleButton {
+    display: block;
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 2px;
+    border-radius: 10px;
+    background: white;
+    cursor: pointer;
+  }
+  .closeX {
+    display: none;
   }
   li.onThisPage a {
     padding: 0;
@@ -107,20 +142,19 @@
   button[type=submit] {
     font-size: 1rem;
   }
-}
-section.contactPage wrapper flexContainerRow {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-}
-
-.contactForm {
-  max-width: 75vw;
+  section.contactPage wrapper flexContainerRow {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .contactForm {
+    max-width: 75vw;
+  }
 }

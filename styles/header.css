@@ -46,6 +46,14 @@ header {
           justify-content: space-between;
 }
 
+.mobileMenu {
+  display: none;
+}
+
+.toggleButton {
+  display: none;
+}
+
 header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -25,12 +25,61 @@
       }
 
     header nav ul {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        top: 10px;
-        text-align: right;
+    display: none;
     }
+
+    // Mobile hamburger menu styles start here
+
+    .mobileMenu {
+        
+        display: block;
+        position: fixed;
+        background: #4c0341;
+        opacity: 0.9;
+        padding-top: 4rem;
+        transform: translateY(-100%);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+
+    }
+
+    .mobileMenuNav {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+   .mobileLink a {
+    color: #fff;
+    font-size: 4rem;
+   }
+
+    .menuDrop {
+        transform: translateY(0);
+      }
+
+    .toggleButton {
+        display: block;
+        position: fixed;
+        z-index: 100;
+        top: 1rem;
+        right: 1rem;
+        padding: 4px;
+        border: black solid 2px;
+        border-radius: 10px;
+        background: white;
+        cursor: pointer;
+    }
+
+    .closeX {
+        display: none;
+    }
+
+// Mobile hamburger menu styles end here
 
     li.onThisPage a{
         padding: 0;
@@ -140,7 +189,7 @@
         font-size: 1rem;
     }
 
-    }
+    
 
     section.contactPage wrapper flexContainerRow {
         display: flex;
@@ -153,9 +202,7 @@
         max-width: 75vw;
     }
 
-
-
-
+}
 
 
 

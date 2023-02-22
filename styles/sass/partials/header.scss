@@ -33,6 +33,18 @@ header {
     justify-content: space-between;
 }
 
+// Mobile hamburger menu styles start here, more are in the media-queries stylesheet. Both .mobileMenu and .toggleButton are hidden when not in mobile width.
+
+.mobileMenu {
+        display: none;
+    }
+        
+.toggleButton {
+        display: none;
+    }
+       
+// Mobile hamburger menu styles end here
+
 header nav ul {
     display: flex;
     flex-direction: row;
